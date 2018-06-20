@@ -16,6 +16,7 @@ function getQuote(quotes){
     var quoteIndex = Math.floor(Math.random() * quotes.length);
     $("#quote").text(quotes[quoteIndex].quote);
     quoteChar = quotes[quoteIndex].name;
+    $("#displayAns").text("");
 }
 
 function checkAnswer(button){
