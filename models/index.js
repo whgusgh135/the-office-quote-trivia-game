@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 mongoose.set("debug", true);
-mongoose.connect("mongodb://localhost/office-quote-api");
+mongoose.connect(process.env.DATABASEURL);
 
 mongoose.Promise = Promise;
 

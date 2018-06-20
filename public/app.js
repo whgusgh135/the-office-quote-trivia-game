@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 var quoteChar = "";
-var correctNum = 0;
+/*var correctNum = 0;*/
 var quizNum = 15;
 
 function getQuote(quotes){
